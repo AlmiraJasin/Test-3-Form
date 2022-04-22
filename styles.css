@@ -52,7 +52,6 @@ h1 {
     padding: 10px;
     border: 0;
     box-sizing: border-box;
-    /*width: 100%;*/
 }
 
 .color-second {
@@ -78,7 +77,8 @@ h1 {
 .btn-container {
     width: 100%;
     margin: 10px 0;
-    margin-left: calc(50% - 50px);
+    display: flex;
+    justify-content: center;
 }
 
 .btn {
@@ -89,7 +89,12 @@ h1 {
     color: var(--anti-button);
     border: 1px solid var(--button);
     border-radius: 50px;
-    /*transition: background-color 400ms;*/
+    transition: background-color 400ms;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: var(--font);
 }
 
 span {
