@@ -7,7 +7,7 @@ _35 group third test project_
 
 This project is for **educational** porpuses only.
 
-Site published at: https://github.com/AlmiraJasin/praktine-uzduotis-7sav
+Site published at: https://almirajasin.github.io/praktine-uzduotis-7sav/
 
 ## Project features
 
